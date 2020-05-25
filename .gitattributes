@@ -1,0 +1,26 @@
+# Basic .gitattributes for a Kotlin repo.
+
+# Source files
+# ============
+gradlew binary
+gradlew.bat binary
+#build/*     linguist-vendored
+#gradle/*    linguist-vendored
+#*           linguist-vendored
+#src/*       linguist-detectable=true
+
+#*.kt	-text	diff=kotlin
+#*.ktm	-text	diff=kotlin
+#*.kts	-text	diff=kotlin
+
+#*.kt    text    diff=kotlin
+#*.ktm   text    diff=kotlin
+#*.kts   text    diff=kotlin
+
+#*.kt    linguist-detectable=true
+#*       linguist-detectable=false
+#*.*     linguist-detectable=false
+
+# Anything else
+# ============
+#*   text    diff=kotlin
